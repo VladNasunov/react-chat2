@@ -17,7 +17,7 @@ export default function SignIn() {
   return (
     <div className="joinOuterContainer">
       <input
-        placeholder="Name"
+        placeholder="Room"
         className="joinInput"
         type="text"
         onChange={(event) => setRoom(event.target.value)}
